@@ -1,6 +1,8 @@
 # Solana Copy Trading Bot (Python)
 
-Python bot to mirror wallet actions on Solana using:
+Python bot to mirror wallet actions on Solana. Pair with the [bot-console](https://github.com/ypingmoe/bot-console) Next.js dashboard for start/stop, status, and JSONL export preview.
+
+Uses:
 - QuickNode RPC/WSS
 - Solana Web3 (`solana-py` + `solders`)
 - Jupiter swap API for execution
@@ -58,6 +60,10 @@ python bot.py
   - when to copy
   - position sizing
   - token/wallet filtering
+
+## Related project
+
+- [bot-console](https://github.com/ypingmoe/bot-console) — TypeScript/Next.js control UI for this bot
 
 ## Next upgrades (recommended)
 - Replace polling with websocket subscriptions for low latency.
