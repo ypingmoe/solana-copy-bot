@@ -66,3 +66,7 @@ python bot.py
 - Add persistence (SQLite/Postgres) for seen signatures and position state.
 - Add Telegram/Discord alerts and kill-switch.
 
+## License
+
+MIT — see [LICENSE](LICENSE).
+
